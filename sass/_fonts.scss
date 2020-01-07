@@ -10,14 +10,6 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'unrulyness';
-font-display: swap;
-src: url('../fonts/unrulyness.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
 font-family: 'Montserrat Regular';
 font-display: swap;
 src: url('../fonts/Montserrat-Regular.eot');
@@ -34,8 +26,4 @@ font-style: normal;
 
 @mixin bold {
   font-family: 'Montserrat Bold', sans-serif;
-}
-
-@mixin italic {
-  font-family: 'unrulyness', 'Montserrat Regular', sans-serif;
 }

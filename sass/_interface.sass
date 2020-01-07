@@ -1,8 +1,10 @@
 body
   background-color: $bg-primary
   +regular
+  color: $text-color
   &.dark
     background-color: $bg-secondary
+    color: #ffffff
 .dark-toggle
   margin-bottom: 1.5rem
 .toggle
@@ -42,3 +44,9 @@ body
   visibility: hidden
   &:checked + .toggle .ball
     transform: translateX(24px)
+.section
+  min-height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  
