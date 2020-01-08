@@ -1,0 +1,187 @@
+@mixin position-center 
+  position: absolute
+  top: 0 
+  right 0 
+  bottom: 0 
+  left: 0
+  margin: auto
+  
+.menu
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate3d(-50%, -50%, 0)
+  backface-visibility: hidden
+  prospective: 1000
+  list-style: none
+  margin: 0
+  padding: 0
+  &__link
+    text-decoration: none
+    color: $text-color-secondary
+    &_dark
+      color: $text-color
+  &__item
+    opacity: 0
+    text-align: center
+    transform: translate3d(0, 2.2rem, 0)
+    cursor: pointer
+    padding: .25rem 1.25rem
+    font-size: 3rem
+    &:before
+      content: ''
+      @include position-center
+      left: auto
+      background-color: $bg-primary
+      height: 100%
+      width: 0
+      overflow: hidden
+      transition: width .14s ease-out
+    &:after
+      opacity: 0
+      content: attr(data-text)
+      color: $text-color
+      @include position-center
+      overflow: hidden
+      transform: translate(-1.5rem, .2rem)
+      transition: transform .1s ease-out, opacity .1s ease-out
+    &:hover
+      &:before
+        left: 0
+        right: auto
+        width: 100%
+      &:after
+        opacity: 1
+        padding: 0 1.25rem
+        width: 80%
+        transform: translate(0, .2rem)
+        transition: transform .2s .14s ease-out, opacity .2s .14s ease-out
+    &_open
+      opacity: 1
+      transform: translate3d(0,0,0)
+      transition: transform .2s ease-out, opacity .2s ease-out
+      @for $i from 1 to 5
+        &:nth-child(#{$i})
+          transition-delay: $i * .1s + .65s
+    &_dark
+      &:before
+        background-color: $bg-secondary  
+      &:after
+        color: $text-color-secondary
+      
+.menu-toggle
+  opacity: .7
+  background-color: transparent
+  position: fixed
+  z-index: 2
+  top: 2.5rem
+  left: 2.5rem
+  border: none
+  width: 2.2rem
+  height: 2rem
+  outline: none
+  transition: opacity .2s ease-out
+  cursor: pointer
+  &:before
+    content: '\2630'
+    @include position-center
+    right: auto
+    width: 100%
+    +bold
+    font-size: 2rem
+    color: $text-color
+    transition: opacity .2s ease-out, width .2s .2s ease-out
+  &:after
+    opacity: 0
+    content: 'x'
+    color: $text-color-secondary
+    position: absolute
+    top: 0.8rem
+    left: .4rem
+    font-size: 2.5rem
+    line-height: 0
+    transition: opacity .4s ease-out
+  &:active
+    transform: translateY(.1rem)
+  &:hover
+    opacity: 1
+  &_open 
+    opacity: 1
+    &:before
+      opacity: 0
+      width: 0
+    &:after
+      opacity: 1
+      transform: translate3d(0, 0, 0) rotate(360deg)
+      transition: transform .4s 1s ease-out, opacity .4s 1s ease-out
+  &_dark
+    &:before
+      color: $text-color-secondary
+    &:after
+      color: $text-color
+.nav
+  z-index: 1
+  position: fixed
+  top: -100%
+  left: 0
+  width: 100%
+  height: 100%
+  transform: translate3d(0, 0, 0)
+  backface-visibility: hidden
+  overflow: hidden
+  &:before
+    content: ''
+    @include position-center
+    background-color: rgba($bg-secondary, .98)
+    width: 100%
+    height: 0
+    padding-bottom: 100%
+    border-radius: 100%
+    transform: scale(.04), translateY(9999px)
+    overflow: hidden
+  &_open 
+    top: 0
+    &:before
+      animation: menu-animation .8s ease-out forwards
+  &_dark
+    &:before
+      background-color: rgba($bg-primary, .98)
+
+@keyframes menu-animation 
+  0% 
+    opacity: 0
+    transform: scale(0.04) translateY(300%)
+  
+  40% 
+    transform: scale(0.04) translateY(0)
+    transition: ease-out
+  
+  40% 
+    transform: scale(0.04) translateY(0)
+  
+  60% 
+    opacity: 1
+    transform: scale(0.02) translateY(0px)
+  
+  61% 
+    transform: scale(0.04)
+  
+  99.9% 
+    height: 0
+    padding-bottom: 100%
+    border-radius: 100%
+  
+  100% 
+    transform: scale(2)
+    height: 100%
+    padding-bottom: 0
+    border-radius: 0
+  
+@media screen and (max-width: 768px)
+  .menu
+    &__item
+      font-size: 2rem
+      &:hover
+        &:after
+          width: 75%
+        
