@@ -11,6 +11,12 @@ window.addEventListener('DOMContentLoaded', function() {
     section.forEach((item) => { item.classList.toggle('section_open'); });
     menuToggle.classList.toggle('menu-toggle_open');
     nav.classList.toggle('nav_open');
+
+    if (menuToggle.classList.contains('menu-toggle_open')) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
   });
 
   /* ----------------------------- darkmode change ---------------------------- */
