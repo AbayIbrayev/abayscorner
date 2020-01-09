@@ -50,7 +50,45 @@ body
   justify-content: center
   align-items: center
   transition: .2s ease-out
+  text-align: center
   &_open
     transform: scale(.92)
     transition: transform .2s .41s ease-out
+  &-title
+    +bold
+    font-size: 2rem
+  &__title
+    margin: 0
+    margin-bottom: 2.5rem
+.button
+  padding: 1rem
+  border: 2px solid $text-color
+  color: $text-color
+  transition: all .3s ease
+  font-size: 0.8rem
+  border-radius: 6px
+  position: relative
+  &:before
+    position: absolute
+    content: ''
+    width: 0%
+    height: 100%
+    background-color: $bg-secondary
+    top: 0
+    left: auto
+    right: 0
+    z-index: -1
+    transition: all .3s ease
+  &:hover
+    color: $text-color-secondary
+    &:before
+      width: 100%
+      left: 0
+  &_dark
+    border-color: $text-color-secondary
+    color: $text-color-secondary
+    &:before
+      background-color: $bg-primary
+    &:hover
+      color: $text-color
   

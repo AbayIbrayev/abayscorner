@@ -27,7 +27,8 @@ window.addEventListener('DOMContentLoaded', function() {
         arrow = document.querySelector('.arrow'),
         menuToggleDark = document.querySelectorAll('.menu-toggle'),
         navDark = document.querySelectorAll('.nav'),
-        menuLinkDark = document.querySelectorAll('.menu__link');
+        menuLinkDark = document.querySelectorAll('.menu__link'),
+        btnDark = document.querySelectorAll('.button');
 
   dark.addEventListener('change', () => {
     document.body.classList.toggle('dark');
@@ -37,6 +38,7 @@ window.addEventListener('DOMContentLoaded', function() {
     navDark.forEach((item) => { item.classList.toggle('nav_dark'); });
     menuItem.forEach((item) => { item.classList.toggle('menu__item_dark'); });
     menuLinkDark.forEach((item) => { item.classList.toggle('menu__link_dark'); });
+    btnDark.forEach((item) => { item.classList.toggle('button_dark'); });
   });
 
   /* ----------------------------- language change ---------------------------- */

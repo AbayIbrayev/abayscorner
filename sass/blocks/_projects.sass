@@ -1,0 +1,44 @@
+.projects
+  &-header
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &-tab
+      font-size: 1.1rem
+      cursor: pointer
+      margin-right: 1rem
+      opacity: .7
+      transition: opacity .2s ease-out
+      &:hover
+        opacity: 1
+      &:last-child
+        margin-right: 0
+  &__header
+    margin-bottom: 2.5rem
+.project
+  display: flex
+  justify-content: space-between
+  padding: 40px 0
+  &__description
+    flex-basis: 55%
+    text-align: left
+    &-title
+      font-size: 1.3rem
+    &-text
+      font-size: 1rem
+  &__img
+    flex-basis: 40%
+  &__title
+    margin-bottom: 1.4rem
+  &__text
+    margin-bottom: 1.4rem
+  &__link
+    display: inline-block
+    text-decoration: none
+    margin-right: 0.5rem
+    &:last-child
+      margin-right: 0
+  &__icon
+    margin-right: .5rem
+
+
