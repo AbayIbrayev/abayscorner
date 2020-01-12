@@ -28,7 +28,8 @@ window.addEventListener('DOMContentLoaded', function() {
         menuToggleDark = document.querySelectorAll('.menu-toggle'),
         navDark = document.querySelectorAll('.nav'),
         menuLinkDark = document.querySelectorAll('.menu__link'),
-        btnDark = document.querySelectorAll('.button');
+        btnDark = document.querySelectorAll('.button'),
+        projectTabDark = document.querySelectorAll('.projects-header-tab');
 
   dark.addEventListener('change', () => {
     document.body.classList.toggle('dark');
@@ -39,12 +40,48 @@ window.addEventListener('DOMContentLoaded', function() {
     menuItem.forEach((item) => { item.classList.toggle('menu__item_dark'); });
     menuLinkDark.forEach((item) => { item.classList.toggle('menu__link_dark'); });
     btnDark.forEach((item) => { item.classList.toggle('button_dark'); });
+    projectTabDark.forEach((item) => { item.classList.toggle('projects-header-tab_dark'); });
   });
 
   /* ----------------------------- language change ---------------------------- */
 
   lang.addEventListener('change', () => {
 
+  });
+
+/* ---------------------------------- tabs ---------------------------------- */
+
+  let tab = document.querySelectorAll('.projects-header-tab'),
+      info = document.querySelector('.projects-header'),
+      tabContent = document.querySelectorAll('.projects__tabcontent');
+
+  function hideTabContent(a) {
+    for (let i = a; i < tabContent.length; i++) {
+      tabContent[i].classList.remove('show');
+      tabContent[i].classList.add('hide');
+    }
+  }
+
+  hideTabContent(1);
+
+  function showTabContent(b) {
+    if (tabContent[b].classList.contains('hide')) {
+      tabContent[b].classList.remove('hide');
+      tabContent[b].classList.add('show');
+    }
+  }
+
+  info.addEventListener('click', (event) => {
+    let target = event.target;
+    if (target && target.classList.contains('projects-header-tab')) {
+      for (let i = 0; i < tab.length; i++) {
+        if (target == tab[i]) {
+          hideTabContent(0);
+          showTabContent(i);
+          break;
+        }
+      }
+    }
   });
 
 });
