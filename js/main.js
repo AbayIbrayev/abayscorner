@@ -3,10 +3,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
   const menuToggle = document.querySelector('.menu-toggle'),
         menuItem = document.querySelectorAll('.menu__item'),
+        menuLink = document.querySelectorAll('.menu__link'),
         nav = document.querySelector('.nav'),
         section = document.querySelectorAll('.section');
 
-  menuToggle.addEventListener('click', () => {
+  menuToggle.addEventListener('click', function toggleMenu() {
     menuItem.forEach((item) => { item.classList.toggle('menu__item_open'); });
     section.forEach((item) => { item.classList.toggle('section_open'); });
     menuToggle.classList.toggle('menu-toggle_open');
@@ -17,7 +18,13 @@ window.addEventListener('DOMContentLoaded', function() {
     } else {
       document.body.style.overflow = '';
     }
-  });
+
+    menuLink.forEach((item) => {
+      item.addEventListener('click', toggleMenu);
+    });
+  });  
+
+  
 
   /* ----------------------------- darkmode change ---------------------------- */
 
