@@ -36,18 +36,22 @@ window.addEventListener('DOMContentLoaded', function() {
         navDark = document.querySelectorAll('.nav'),
         menuLinkDark = document.querySelectorAll('.menu__link'),
         btnDark = document.querySelectorAll('.button'),
+        contactLinkDark = document.querySelectorAll('.contact__link'),
+        footerDark = document.querySelector('.footer'),
         projectTabDark = document.querySelectorAll('.projects-header-tab');
 
   dark.addEventListener('change', () => {
     document.body.classList.toggle('dark');
     ball.forEach((item) => { item.classList.toggle('ball_dark'); });
     arrow.classList.toggle('arrow_dark');
+    footerDark.classList.toggle('footer_dark');
     menuToggleDark.forEach((item) => { item.classList.toggle('menu-toggle_dark'); });
     navDark.forEach((item) => { item.classList.toggle('nav_dark'); });
     menuItem.forEach((item) => { item.classList.toggle('menu__item_dark'); });
     menuLinkDark.forEach((item) => { item.classList.toggle('menu__link_dark'); });
     btnDark.forEach((item) => { item.classList.toggle('button_dark'); });
     projectTabDark.forEach((item) => { item.classList.toggle('projects-header-tab_dark'); });
+    contactLinkDark.forEach((item) => { item.classList.toggle('contact__link_dark'); });
   });
 
   /* ----------------------------- language change ---------------------------- */
