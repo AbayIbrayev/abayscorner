@@ -14,6 +14,7 @@
     animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
     &_dark
       border-right: 2px solid $text-color-secondary
+      animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursorDark .6s steps(40) infinite normal
   &__description
     font-size: 2rem
     margin: 0
@@ -78,7 +79,13 @@
 
 @keyframes blinkTextCursor
   from
-    border-right-color: initial
+    border-right-color: $text-color
+  to
+    border-right-color: transparent
+
+@keyframes blinkTextCursorDark
+  from
+    border-right-color: $text-color-secondary
   to
     border-right-color: transparent
 
