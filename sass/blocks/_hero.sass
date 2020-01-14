@@ -6,6 +6,12 @@
     +bold
     font-size: 6rem
     margin: 0 0 1.2rem
+    display: inline-block
+    border-right: 2px solid
+    white-space: nowrap
+    width: 7.2em
+    overflow: hidden
+    animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
   &__description
     font-size: 2rem
     margin: 0
@@ -61,6 +67,18 @@
   100%
     opacity: 1
     transform: translate(0px, 0px)
+
+@keyframes typewriter
+  from
+    width: 0
+  to
+    width: 7.2em
+
+@keyframes blinkTextCursor
+  from
+    border-right-color: #111111
+  to
+    border-right-color: transparent
 
 @media screen and (max-width: 991px)
   .hero
