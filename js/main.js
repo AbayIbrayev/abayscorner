@@ -82,6 +82,8 @@ window.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  tab[0].classList.add('projects-header-tab_active');
+
   info.addEventListener('click', (event) => {
     let target = event.target;
     if (target && target.classList.contains('projects-header-tab')) {
@@ -89,7 +91,10 @@ window.addEventListener('DOMContentLoaded', function() {
         if (target == tab[i]) {
           hideTabContent(0);
           showTabContent(i);
-          break;
+          tab.forEach((item) => {
+            item.classList.remove('projects-header-tab_active');
+          });
+          target.classList.add('projects-header-tab_active');
         }
       }
     }
