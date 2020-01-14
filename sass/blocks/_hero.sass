@@ -76,7 +76,7 @@
 
 @keyframes blinkTextCursor
   from
-    
+    border-right-color: initial
   to
     border-right-color: transparent
 
@@ -84,8 +84,14 @@
   .hero
     &__title
       font-size: 3rem
+      width: 8em
     &__description
       font-size: 1.5rem
+    @keyframes typewriter
+      from
+        width: 0
+      to
+        width: 8em
 @media screen and (max-width: 600px)
   .hero
     &__title
