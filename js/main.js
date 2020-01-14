@@ -38,12 +38,14 @@ window.addEventListener('DOMContentLoaded', function() {
         btnDark = document.querySelectorAll('.button'),
         contactLinkDark = document.querySelectorAll('.contact__link'),
         footerDark = document.querySelector('.footer'),
+        heroTitle = document.querySelector('.hero__title'),
         projectTabDark = document.querySelectorAll('.projects-header-tab');
 
   dark.addEventListener('change', () => {
     document.body.classList.toggle('dark');
     ball.forEach((item) => { item.classList.toggle('ball_dark'); });
     arrow.classList.toggle('arrow_dark');
+    heroTitle.classList.toggle('hero__title_dark');
     footerDark.classList.toggle('footer_dark');
     menuToggleDark.forEach((item) => { item.classList.toggle('menu-toggle_dark'); });
     navDark.forEach((item) => { item.classList.toggle('nav_dark'); });

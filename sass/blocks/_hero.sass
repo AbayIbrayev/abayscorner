@@ -7,11 +7,13 @@
     font-size: 6rem
     margin: 0 0 1.2rem
     display: inline-block
-    border-right: 2px solid
+    border-right: 2px solid $text-color
     white-space: nowrap
     width: 7.2em
     overflow: hidden
     animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
+    &_dark
+      border-right: 2px solid $text-color-secondary
   &__description
     font-size: 2rem
     margin: 0
@@ -23,7 +25,7 @@
 .arrow:before
   position: absolute
   left: 50%
-  bottom: 1.5rem
+  bottom: 5rem
 .arrow
   width: 40px
   height: 40px
