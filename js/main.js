@@ -41,8 +41,23 @@ window.addEventListener('DOMContentLoaded', function() {
         heroTitle = document.querySelector('.hero__title'),
         projectTabDark = document.querySelectorAll('.projects-header-tab');
 
-  dark.addEventListener('change', () => {
+  let darkMode = localStorage.getItem('darkMode');
+
+  if (darkMode == 'true') {
+    dark.checked = true;
+    changeMode();
+  }
+
+  dark.addEventListener('change', changeMode);
+
+  function changeMode() {
     document.body.classList.toggle('dark');
+    darkMode = localStorage.getItem('darkMode');
+    if (dark.checked == true) {
+      localStorage.setItem('darkMode', 'true');
+    } else {
+      localStorage.setItem('darkMode', null);
+    }
     ball.forEach((item) => { item.classList.toggle('ball_dark'); });
     arrow.classList.toggle('arrow_dark');
     heroTitle.classList.toggle('hero__title_dark');
@@ -54,7 +69,7 @@ window.addEventListener('DOMContentLoaded', function() {
     btnDark.forEach((item) => { item.classList.toggle('button_dark'); });
     projectTabDark.forEach((item) => { item.classList.toggle('projects-header-tab_dark'); });
     contactLinkDark.forEach((item) => { item.classList.toggle('contact__link_dark'); });
-  });
+  }
 
   /* ----------------------------- language change ---------------------------- */
 
