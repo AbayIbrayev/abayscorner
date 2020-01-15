@@ -32,6 +32,7 @@ window.addEventListener('DOMContentLoaded', function() {
         lang = document.getElementById('lang-toggle'),
         ball = document.querySelectorAll('.ball'),
         arrow = document.querySelector('.arrow'),
+        menuItemDark = document.querySelectorAll('.menu__item'),
         menuToggleDark = document.querySelectorAll('.menu-toggle'),
         navDark = document.querySelectorAll('.nav'),
         menuLinkDark = document.querySelectorAll('.menu__link'),
@@ -64,7 +65,7 @@ window.addEventListener('DOMContentLoaded', function() {
     footerDark.classList.toggle('footer_dark');
     menuToggleDark.forEach((item) => { item.classList.toggle('menu-toggle_dark'); });
     navDark.forEach((item) => { item.classList.toggle('nav_dark'); });
-    menuItem.forEach((item) => { item.classList.toggle('menu__item_dark'); });
+    menuItemDark.forEach((item) => { item.classList.toggle('menu__item_dark'); });
     menuLinkDark.forEach((item) => { item.classList.toggle('menu__link_dark'); });
     btnDark.forEach((item) => { item.classList.toggle('button_dark'); });
     projectTabDark.forEach((item) => { item.classList.toggle('projects-header-tab_dark'); });
@@ -95,7 +96,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   function ruLang() {
     heroTitle.innerText = 'Привет, Мир!';
-    heroDescription.innerHTML = 'Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработик.';
+    heroDescription.innerHTML = 'Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработчик.';
     projectsTitle.innerText = 'Проекты';
     recentProjects.innerText = 'Недавние работы';
     personalProjects.innerText = 'Персональные проекты';
