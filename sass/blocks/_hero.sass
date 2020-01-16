@@ -11,10 +11,11 @@
     white-space: nowrap
     width: 7.2em
     overflow: hidden
-    animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
+    visibility: hidden
+    animation: typewriter 2s steps(16) 1.5s 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
     &_dark
       border-right: 2px solid $text-color-secondary
-      animation: typewriter 2s steps(16) 1 normal forwards, blinkTextCursorDark .6s steps(40) infinite normal
+      animation: typewriter 2s steps(16) 1.5s 1 normal forwards, blinkTextCursorDark .6s steps(40) infinite normal
   &__description
     font-size: 2rem
     margin: 0
@@ -74,8 +75,10 @@
 @keyframes typewriter
   from
     width: 0
+    visibility: visible
   to
     width: 7.2em
+    visibility: visible
 
 @keyframes blinkTextCursor
   from
@@ -93,14 +96,16 @@
   .hero
     &__title
       font-size: 3rem
-      width: 8em
+      width: 8.1em
     &__description
       font-size: 1.5rem
     @keyframes typewriter
       from
         width: 0
+        visibility: visible
       to
-        width: 8em
+        width: 8.1em
+        visibility: visible
 @media screen and (max-width: 600px)
   .hero
     &__title
