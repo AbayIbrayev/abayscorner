@@ -6,10 +6,10 @@
     +bold
     font-size: 6rem
     margin: 0 0 1.2rem
+    padding: 0 .5rem
     display: inline-block
     border-right: 2px solid $text-color
     white-space: nowrap
-    width: 7.3em
     overflow: hidden
     visibility: hidden
     animation: typewriter 2s steps(16) 1.5s 1 normal forwards, blinkTextCursor .6s steps(40) infinite normal
@@ -77,7 +77,7 @@
     width: 0
     visibility: visible
   to
-    width: 7.3em
+    width: 100%
     visibility: visible
 
 @keyframes blinkTextCursor
@@ -96,7 +96,6 @@
   .hero
     &__title
       font-size: 3rem
-      width: 8.1em
     &__description
       font-size: 1.5rem
     @keyframes typewriter
@@ -104,7 +103,7 @@
         width: 0
         visibility: visible
       to
-        width: 8.1em
+        width: 100%
         visibility: visible
 @media screen and (max-width: 600px)
   .hero
