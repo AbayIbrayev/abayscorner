@@ -98,9 +98,9 @@ body
   animation-name: fade
   animation-duration: 2s
 .hide
-  display: none
+  display: none !important
 .show
-  display: block
+  display: grid !important
 
 @keyframes fade 
   from 
@@ -109,7 +109,7 @@ body
     opacity: 1
 
 .slide-in-left 
-	animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both
+  animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both
 
 @keyframes slide-in-left 
   0% 
