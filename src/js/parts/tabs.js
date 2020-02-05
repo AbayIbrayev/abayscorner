@@ -5,6 +5,41 @@ function tabs() {
     info = document.querySelector('.projects-header'),
     tabContent = document.querySelectorAll('.projects__tabcontent');
 
+
+  getProjects(0, "recent");
+  getProjects(1, "personal");
+  getProjects(2, "fun");
+
+  function getProjects(i, tab) {
+    fetch('../../../projects.json')
+      .then(res => res.json())
+      .then(data => {
+        let projects = "";
+        data[tab].forEach((project) => {
+          projects += `
+              <div class="projects__project project">
+              <div class="project__img">
+                <img src="${project.image}" class="img project-img" alt="${project.title}">
+              </div>
+              <div class="project__description">
+                <div class="project__description-title project__title">${project.title}</div>
+                <div class="project__description-text project__text">
+                  ${project.descrip}
+                </div>
+                <div class="project__description-btn project__btn">
+                  <a href = "${project.repo}" target = "_blank"
+                    class="button project__link" data-id="button"><i class="project__icon fas fa-laptop-code"></i> Source Code</a>
+                  <a href="${project.demo}" target="_blank"
+                    class="button project__link" data-id="button"><i class="project__icon fas fa-laptop"></i> Live Demo</a>
+                </div>
+              </div>
+            </div>
+            `;
+        });
+        tabContent[i].innerHTML = projects;
+      });
+  }
+
   function hideTabContent(a) {
     for (let i = a; i < tabContent.length; i++) {
       tabContent[i].classList.remove('show');
@@ -38,6 +73,7 @@ function tabs() {
       }
     }
   });
+  return;
 }
 
 module.exports = tabs;

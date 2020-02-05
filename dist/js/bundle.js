@@ -117,15 +117,18 @@ __webpack_require__(/*! nodelist-foreach-polyfill */ "./node_modules/nodelist-fo
 window.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
-  var dark = __webpack_require__(/*! ./parts/dark.js */ "./src/js/parts/dark.js"),
+  var tabs = __webpack_require__(/*! ./parts/tabs.js */ "./src/js/parts/tabs.js"),
+      dark = __webpack_require__(/*! ./parts/dark.js */ "./src/js/parts/dark.js"),
       language = __webpack_require__(/*! ./parts/language.js */ "./src/js/parts/language.js"),
-      menu = __webpack_require__(/*! ./parts/menu.js */ "./src/js/parts/menu.js"),
-      tabs = __webpack_require__(/*! ./parts/tabs.js */ "./src/js/parts/tabs.js");
+      menu = __webpack_require__(/*! ./parts/menu.js */ "./src/js/parts/menu.js");
 
-  dark();
+  tabs();
+  setTimeout(function () {
+    dark();
+  }, 500); // dark();
+
   language();
   menu();
-  tabs();
 });
 
 /***/ }),
@@ -332,6 +335,21 @@ function tabs() {
   var tab = document.querySelectorAll('.projects-header-tab'),
       info = document.querySelector('.projects-header'),
       tabContent = document.querySelectorAll('.projects__tabcontent');
+  getProjects(0, "recent");
+  getProjects(1, "personal");
+  getProjects(2, "fun");
+
+  function getProjects(i, tab) {
+    fetch('../../../projects.json').then(function (res) {
+      return res.json();
+    }).then(function (data) {
+      var projects = "";
+      data[tab].forEach(function (project) {
+        projects += "\n              <div class=\"projects__project project\">\n              <div class=\"project__img\">\n                <img src=\"".concat(project.image, "\" class=\"img project-img\" alt=\"").concat(project.title, "\">\n              </div>\n              <div class=\"project__description\">\n                <div class=\"project__description-title project__title\">").concat(project.title, "</div>\n                <div class=\"project__description-text project__text\">\n                  ").concat(project.descrip, "\n                </div>\n                <div class=\"project__description-btn project__btn\">\n                  <a href = \"").concat(project.repo, "\" target = \"_blank\"\n                    class=\"button project__link\" data-id=\"button\"><i class=\"project__icon fas fa-laptop-code\"></i> Source Code</a>\n                  <a href=\"").concat(project.demo, "\" target=\"_blank\"\n                    class=\"button project__link\" data-id=\"button\"><i class=\"project__icon fas fa-laptop\"></i> Live Demo</a>\n                </div>\n              </div>\n            </div>\n            ");
+      });
+      tabContent[i].innerHTML = projects;
+    });
+  }
 
   function hideTabContent(a) {
     for (var i = a; i < tabContent.length; i++) {
@@ -366,6 +384,7 @@ function tabs() {
       }
     }
   });
+  return;
 }
 
 module.exports = tabs;

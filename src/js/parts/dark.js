@@ -2,17 +2,17 @@ function dark() {
   /* ----------------------------- darkmode change ---------------------------- */
 
   const dark = document.getElementById('dark-toggle'),
-        ball = document.querySelectorAll('.ball'),
-        arrow = document.querySelector('.arrow'),
-        menuItemDark = document.querySelectorAll('.menu__item'),
-        menuToggleDark = document.querySelectorAll('.menu-toggle'),
-        navDark = document.querySelectorAll('.nav'),
-        menuLinkDark = document.querySelectorAll('.menu__link'),
-        btnDark = document.querySelectorAll('.button'),
-        contactLinkDark = document.querySelectorAll('.contact__link'),
-        footerDark = document.querySelector('.footer'),
-        heroTitleDark = document.querySelector('.hero__title'),
-        projectTabDark = document.querySelectorAll('.projects-header-tab');
+    ball = document.querySelectorAll('.ball'),
+    arrow = document.querySelector('.arrow'),
+    menuItemDark = document.querySelectorAll('.menu__item'),
+    menuToggleDark = document.querySelectorAll('.menu-toggle'),
+    navDark = document.querySelectorAll('.nav'),
+    menuLinkDark = document.querySelectorAll('.menu__link'),
+    btnDark = document.querySelectorAll('.button'),
+    contactLinkDark = document.querySelectorAll('.contact__link'),
+    footerDark = document.querySelector('.footer'),
+    heroTitleDark = document.querySelector('.hero__title'),
+    projectTabDark = document.querySelectorAll('.projects-header-tab');
 
   let darkMode = localStorage.getItem('darkMode');
 

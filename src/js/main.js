@@ -1,14 +1,17 @@
 require('nodelist-foreach-polyfill');
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
-  let dark = require('./parts/dark.js'),
-      language = require('./parts/language.js'),
-      menu = require('./parts/menu.js'),
-      tabs = require('./parts/tabs.js');
+  let tabs = require('./parts/tabs.js'),
+    dark = require('./parts/dark.js'),
+    language = require('./parts/language.js'),
+    menu = require('./parts/menu.js');
 
-  dark();
+  tabs();
+  setTimeout(() => {
+    dark();
+  }, 500);
+  // dark();
   language();
   menu();
-  tabs();
 });
