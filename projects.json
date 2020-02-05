@@ -14,6 +14,13 @@
       "demo": "https://elated-bhabha-128840.netlify.com/"
     },
     {
+      "image": "src/img/projects/shoppingCart.PNG",
+      "title": "JavaScript Shopping Cart",
+      "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage.",
+      "repo": "https://github.com/AbayIbrayev/ShoppingCartJS",
+      "demo": "https://abayibrayev.github.io/ShoppingCartJS/"
+    },
+    {
       "image": "src/img/projects/yogatours.PNG",
       "title": "Yoga Tours Landing Page",
       "descrip": "Yoga Tours Landing Page using HTML/CSS, Less and JavaScript. Contains tabs, slider carousel, timer, modals made with JavaScript from scratch. Project is bundled using Webpack and Babel.",
@@ -35,6 +42,13 @@
       "descrip": "Ionic 4/Angular App using PokéAPI the RESTful Pokémon API with a side-menu navigation, infinite-scroll and swipe-refresh. You can search for pokemons and see details about them.",
       "repo": "https://github.com/AbayIbrayev/ionic4-pokedex",
       "demo": "https://tender-kepler-cd6ccc.netlify.com/"
+    },
+    {
+      "image": "src/img/projects/tindog.PNG",
+      "title": "Bootstrap Tindog Landing page",
+      "descrip": "Simple Tindog Landing page using Bootstrap.",
+      "repo": "https://github.com/AbayIbrayev/TinDog",
+      "demo": "https://abayibrayev.github.io/TinDog/"
     },
     {
       "image": "src/img/projects/slider.PNG",
@@ -73,6 +87,13 @@
       "demo": "https://abayibrayev.github.io/DadJokesGenerator/"
     },
     {
+      "image": "src/img/projects/drums.PNG",
+      "title": "Drum Kit",
+      "descrip": "A Drum Kit using JavaScript, which can play sounds by either clicking on the buttons or pressing keys on the keyboard.",
+      "repo": "https://github.com/AbayIbrayev/DrumsJS",
+      "demo": "https://abayibrayev.github.io/DrumsJS/"
+    },
+    {
       "image": "src/img/projects/formValidation.png",
       "title": "Form Validation",
       "descrip": "Client-Side form validation using JavaScript.",
@@ -85,6 +106,13 @@
       "descrip": "Simple Password Generator using JavaScript.",
       "repo": "https://github.com/AbayIbrayev/PasswordGeneratorJS",
       "demo": "https://abayibrayev.github.io/PasswordGeneratorJS/"
+    },
+    {
+      "image": "src/img/projects/diceGame.PNG",
+      "title": "Dice Game",
+      "descrip": "Dice Game using JavaScript, which randomly shows dices and finds the winner.",
+      "repo": "https://github.com/AbayIbrayev/DiceGameJS",
+      "demo": "https://abayibrayev.github.io/DiceGameJS/"
     }
   ]
 }
