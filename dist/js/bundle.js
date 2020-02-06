@@ -125,7 +125,7 @@ window.addEventListener('DOMContentLoaded', function () {
   tabs();
   setTimeout(function () {
     dark();
-  }, 500); // dark();
+  }, 800); // dark();
 
   language();
   menu();

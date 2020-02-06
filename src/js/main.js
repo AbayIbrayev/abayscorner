@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
   tabs();
   setTimeout(() => {
     dark();
-  }, 500);
+  }, 800);
   // dark();
   language();
   menu();
