@@ -113,6 +113,13 @@
       "descrip": "Dice Game using JavaScript, which randomly shows dices and finds the winner.",
       "repo": "https://github.com/AbayIbrayev/DiceGameJS",
       "demo": "https://abayibrayev.github.io/DiceGameJS/"
+    },
+    {
+      "image": "src/img/projects/simon.PNG",
+      "title": "Simon Game",
+      "descrip": "Simon Game using HTML/CSS/JS and jQuery, where each level you have to repeat all the steps you did before.",
+      "repo": "https://github.com/AbayIbrayev/SimonGame",
+      "demo": "https://abayibrayev.github.io/SimonGame/"
     }
   ]
 }
