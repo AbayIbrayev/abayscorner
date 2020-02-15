@@ -51,11 +51,11 @@
       "demo": "https://abayibrayev.github.io/TinDog/"
     },
     {
-      "image": "src/img/projects/slider.PNG",
-      "title": "Java Script Slider",
-      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation.",
-      "repo": "https://github.com/AbayIbrayev/JavaScriptSlider",
-      "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
+      "image": "src/img/projects/newsletter.PNG",
+      "title": "Newsletter Heroku App",
+      "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku.",
+      "repo": "https://github.com/AbayIbrayev/Newsletter",
+      "demo": "https://pure-earth-88904.herokuapp.com/"
     },
     {
       "image": "src/img/projects/ionic.png",
@@ -63,6 +63,13 @@
       "descrip": "Ionic 4/Angular Movie App with an OMDb API implemented and a side-menu navigation. You can search for movies and see their details (plot, rating, actors, genre).",
       "repo": "https://github.com/AbayIbrayev/ionic4-movieApp",
       "demo": "https://github.com/AbayIbrayev/ionic4-movieApp/blob/master/README.md"
+    },
+    {
+      "image": "src/img/projects/slider.PNG",
+      "title": "Java Script Slider",
+      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation.",
+      "repo": "https://github.com/AbayIbrayev/JavaScriptSlider",
+      "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
     },
     {
       "image": "src/img/projects/cv.PNG",
