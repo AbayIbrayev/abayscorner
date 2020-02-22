@@ -24,12 +24,12 @@ function language() {
 
   function ruLang() {
     heroTitle.innerText = 'Привет, Мир!';
-    heroDescription.innerHTML = 'Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработчик.';
-    projectsTitle.innerText = 'Проекты';
+    heroDescription.innerHTML = '👋 Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработчик.';
+    projectsTitle.innerText = 'Проекты 💻';
     recentProjects.innerText = 'Недавние работы';
     personalProjects.innerText = 'Персональные проекты';
     funProjects.innerText = 'Веселые проекты';
-    skillsTitle.innerText = 'Навыки';
+    skillsTitle.innerText = 'Навыки 📝';
     contactTitle.innerText = 'Свяжитесь со мной';
     homeLink.innerText = 'Домой';
     projectsLink.innerText = 'Проекты';
@@ -39,12 +39,12 @@ function language() {
 
   function engLang() {
     heroTitle.innerText = 'Hello, World!';
-    heroDescription.innerHTML = "My name is Abay Ibrayev,<br> I'm a professional Software/Web Developer.";
-    projectsTitle.innerText = 'Projects';
+    heroDescription.innerHTML = "👋 My name is Abay Ibrayev,<br> I'm a professional Software/Web Developer.";
+    projectsTitle.innerText = 'Projects 💻';
     recentProjects.innerText = 'Recent Work';
     personalProjects.innerText = 'Personal Projects';
     funProjects.innerText = 'Fun Projects';
-    skillsTitle.innerText = 'Skills';
+    skillsTitle.innerText = 'Skills 📝';
     contactTitle.innerText = 'Contact Me';
     homeLink.innerText = 'Home';
     projectsLink.innerText = 'Projects';
