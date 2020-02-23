@@ -27,9 +27,9 @@ function tabs() {
                   ${project.descrip}
                 </div>
                 <div class="project__description-btn project__btn">
-                  <a href = "${project.repo}" target = "_blank"
+                  <a href = "${project.repo}" style="${project.dissCode}" target = "_blank"
                     class="button project__link" data-id="button"><i class="project__icon fas fa-laptop-code"></i> Source Code</a>
-                  <a href="${project.demo}" target="_blank"
+                  <a href="${project.demo}" style="${project.dissLive}" target="_blank"
                     class="button project__link" data-id="button"><i class="project__icon fas fa-laptop"></i> Live Demo</a>
                 </div>
               </div>
