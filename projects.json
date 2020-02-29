@@ -1,5 +1,13 @@
 {
-  "recent": [{
+  "recent": [
+    {
+      "image": "src/img/projects/irvas.PNG",
+      "title": "Irvas Landing Page",
+      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack.",
+      "repo": "https://github.com/AbayIbrayev/irvasPage",
+      "demo": "http://irvas-com.stackstaging.com/"
+    },
+    {
       "image": "src/img/projects/newsletter.PNG",
       "title": "Newsletter Heroku App",
       "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku.",
@@ -35,17 +43,11 @@
       "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS.",
       "repo": "https://github.com/AbayIbrayev/ionic4-todoApp",
       "demo": "https://elated-bhabha-128840.netlify.com/"
-    },
-    {
-      "image": "src/img/projects/skinali.PNG",
-      "title": "Skinali Landing Page",
-      "descrip": "Skinali Factory Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and has a before/after slider combined with a slick carousel.",
-      "repo": "https://github.com/AbayIbrayev/Skinali-Factory__Website",
-      "demo": "https://abayibrayev.github.io/Skinali-Factory__Website/"
     }
   ],
 
-  "personal": [{
+  "personal": [
+    {
       "image": "src/img/projects/ionic.png",
       "title": "PokeDex ionic/Angular App",
       "descrip": "Ionic 4/Angular App using PokéAPI the RESTful Pokémon API with a side-menu navigation, infinite-scroll and swipe-refresh. You can search for pokemons and see details about them.",
@@ -89,6 +91,13 @@
       "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
     },
     {
+      "image": "src/img/projects/skinali.PNG",
+      "title": "Skinali Landing Page",
+      "descrip": "Skinali Factory Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and has a before/after slider combined with a slick carousel.",
+      "repo": "https://github.com/AbayIbrayev/Skinali-Factory__Website",
+      "demo": "https://abayibrayev.github.io/Skinali-Factory__Website/"
+    },
+    {
       "image": "src/img/projects/cv.PNG",
       "title": "CV/Resume",
       "descrip": "CV/Resume web page made with CSS and HTML.",
@@ -96,7 +105,8 @@
       "demo": "https://abayibrayev.github.io/"
     }
   ],
-  "fun": [{
+  "fun": [
+    {
       "image": "src/img/projects/rockpaper.PNG",
       "title": "Rock Paper Scissors",
       "descrip": "Rock Paper Scissors game using HTML/CSS and JavaScript. User makes his selection and the computer responds with a random selection in a modal window.",
