@@ -24,10 +24,9 @@
     {
       "image": "src/img/projects/ejsTodo.PNG",
       "title": "EJS To-Do",
-      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views.",
+      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well.",
       "repo": "https://github.com/AbayIbrayev/EJSToDo",
-      "demo": "",
-      "dissLive": "pointer-events: none; cursor: default; opacity: 0.3;"
+      "demo": "https://powerful-ravine-46106.herokuapp.com/"
     },
     {
       "image": "src/img/projects/ejsBlog.PNG",
