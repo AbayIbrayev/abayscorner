@@ -1,5 +1,11 @@
 {
-  "recent": [
+  "recent": [{
+      "image": "src/img/projects/belazy.PNG",
+      "title": "Belazy Landing Page",
+      "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
+      "repo": "https://github.com/AbayIbrayev/BelazyLandingPage",
+      "demo": "https://clever-easley-cc5729.netlify.com/"
+    },
     {
       "image": "src/img/projects/irvas.PNG",
       "title": "Irvas Landing Page",
@@ -13,13 +19,6 @@
       "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku.",
       "repo": "https://github.com/AbayIbrayev/Newsletter",
       "demo": "https://pure-earth-88904.herokuapp.com/"
-    },
-    {
-      "image": "src/img/projects/shoppingCart.PNG",
-      "title": "JavaScript Shopping Cart",
-      "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage.",
-      "repo": "https://github.com/AbayIbrayev/ShoppingCartJS",
-      "demo": "https://abayibrayev.github.io/ShoppingCartJS/"
     },
     {
       "image": "src/img/projects/ejsTodo.PNG",
@@ -44,13 +43,19 @@
     }
   ],
 
-  "personal": [
-    {
+  "personal": [{
       "image": "src/img/projects/ionic.png",
       "title": "PokeDex ionic/Angular App",
       "descrip": "Ionic 4/Angular App using PokéAPI the RESTful Pokémon API with a side-menu navigation, infinite-scroll and swipe-refresh. You can search for pokemons and see details about them.",
       "repo": "https://github.com/AbayIbrayev/ionic4-pokedex",
       "demo": "https://tender-kepler-cd6ccc.netlify.com/"
+    },
+    {
+      "image": "src/img/projects/shoppingCart.PNG",
+      "title": "JavaScript Shopping Cart",
+      "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage.",
+      "repo": "https://github.com/AbayIbrayev/ShoppingCartJS",
+      "demo": "https://abayibrayev.github.io/ShoppingCartJS/"
     },
     {
       "image": "src/img/projects/tindog.PNG",
@@ -82,13 +87,6 @@
       "demo": "https://abayibrayev.github.io/ActiveBoxLanding/"
     },
     {
-      "image": "src/img/projects/slider.PNG",
-      "title": "Java Script Slider",
-      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation.",
-      "repo": "https://github.com/AbayIbrayev/JavaScriptSlider",
-      "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
-    },
-    {
       "image": "src/img/projects/skinali.PNG",
       "title": "Skinali Landing Page",
       "descrip": "Skinali Factory Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and has a before/after slider combined with a slick carousel.",
@@ -103,8 +101,7 @@
       "demo": "https://abayibrayev.github.io/"
     }
   ],
-  "fun": [
-    {
+  "fun": [{
       "image": "src/img/projects/rockpaper.PNG",
       "title": "Rock Paper Scissors",
       "descrip": "Rock Paper Scissors game using HTML/CSS and JavaScript. User makes his selection and the computer responds with a random selection in a modal window.",
@@ -152,6 +149,13 @@
       "descrip": "Simple Password Generator using JavaScript.",
       "repo": "https://github.com/AbayIbrayev/PasswordGeneratorJS",
       "demo": "https://abayibrayev.github.io/PasswordGeneratorJS/"
+    },
+    {
+      "image": "src/img/projects/slider.PNG",
+      "title": "Java Script Slider",
+      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation.",
+      "repo": "https://github.com/AbayIbrayev/JavaScriptSlider",
+      "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
     }
   ]
 }
