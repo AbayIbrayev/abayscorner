@@ -147,7 +147,7 @@
       "demo": "https://abayibrayev.github.io/PasswordGeneratorJS/"
     },
     {
-      "image": "src/img/projects/tileCalculator.PNG",
+      "image": "src/img/projects/tileCalculator.png",
       "title": "Tile Calculator",
       "descrip": "Simple and very easy to implement Tile Calculator using JavaScript.",
       "repo": "https://github.com/AbayIbrayev/TilesCalculator",
