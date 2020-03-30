@@ -1,6 +1,13 @@
 {
   "recent": [
     {
+      "image": "src/img/projects/secrets.PNG",
+      "title": "Secrets App",
+      "descrip": "Secrets app using Node.js/Express/EJS minimalist clone of the Whisper where you can share your secrets anonymously. MongoDB Atlas, Passport.js, Google OAuth 2.0 implemented",
+      "repo": "https://github.com/AbayIbrayev/SecretsApp",
+      "demo": "https://sharesecrets.herokuapp.com/"
+    },
+    {
       "image": "src/img/projects/belazy.PNG",
       "title": "Belazy Landing Page",
       "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
