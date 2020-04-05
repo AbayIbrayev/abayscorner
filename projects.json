@@ -36,13 +36,6 @@
       "demo": "https://powerful-ravine-46106.herokuapp.com/"
     },
     {
-      "image": "src/img/projects/ejsBlog.PNG",
-      "title": "EJS Blog",
-      "descrip": "Basic Blog functionality using EJS, Express.js, Node.js, body-parser, Lodash, CSS/JS and Bootstrap. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well.",
-      "repo": "https://github.com/AbayIbrayev/EJSBlog",
-      "demo": "https://powerful-bayou-73407.herokuapp.com/"
-    },
-    {
       "image": "src/img/projects/todoster.png",
       "title": "ToDoster ionic/Angular App",
       "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS.",
@@ -52,6 +45,13 @@
   ],
 
   "personal": [
+    {
+      "image": "src/img/projects/ejsBlog.PNG",
+      "title": "EJS Blog",
+      "descrip": "Basic Blog functionality using EJS, Express.js, Node.js, body-parser, Lodash, CSS/JS and Bootstrap. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well.",
+      "repo": "https://github.com/AbayIbrayev/EJSBlog",
+      "demo": "https://powerful-bayou-73407.herokuapp.com/"
+    },
     {
       "image": "src/img/projects/ionic.png",
       "title": "PokeDex ionic/Angular App",
@@ -65,13 +65,6 @@
       "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage.",
       "repo": "https://github.com/AbayIbrayev/ShoppingCartJS",
       "demo": "https://abayibrayev.github.io/ShoppingCartJS/"
-    },
-    {
-      "image": "src/img/projects/tindog.PNG",
-      "title": "Bootstrap Tindog Landing page",
-      "descrip": "Simple Tindog Landing page using Bootstrap.",
-      "repo": "https://github.com/AbayIbrayev/TinDog",
-      "demo": "https://abayibrayev.github.io/TinDog/"
     },
     {
       "image": "src/img/projects/ionic.png",
@@ -166,6 +159,13 @@
       "descrip": "Client-Side form validation using JavaScript.",
       "repo": "https://github.com/AbayIbrayev/FormValidationJS",
       "demo": "https://abayibrayev.github.io/FormValidationJS/"
+    },
+    {
+      "image": "src/img/projects/tindog.PNG",
+      "title": "Bootstrap Tindog Landing page",
+      "descrip": "Simple Tindog Landing page using Bootstrap.",
+      "repo": "https://github.com/AbayIbrayev/TinDog",
+      "demo": "https://abayibrayev.github.io/TinDog/"
     },
     {
       "image": "src/img/projects/slider.PNG",
