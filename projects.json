@@ -1,11 +1,26 @@
 {
   "recent": [
     {
+      "image": "src/img/projects/sph.png",
+      "title": "Smart Price Hunter's App",
+      "descrip": "Designed and developed an Ecommerce cross-platform mobile application for The UK's Largest building material marketplace, using Ionic Framework/Angular",
+      "demo": "",
+      "dissCode": "pointer-events: none; cursor: default; opacity: 0.3;",
+      "dissLive": "pointer-events: none; cursor: default; opacity: 0.3;"
+    },
+    {
       "image": "src/img/projects/secrets.PNG",
       "title": "Secrets App",
       "descrip": "Secrets app using Node.js/Express/EJS minimalist clone of the Whisper where you can share your secrets anonymously. MongoDB Atlas, Passport.js, Google OAuth 2.0 implemented",
       "repo": "https://github.com/AbayIbrayev/SecretsApp",
       "demo": "https://sharesecrets.herokuapp.com/"
+    },
+    {
+      "image": "src/img/projects/todoster.png",
+      "title": "ToDoster ionic/Angular App",
+      "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS.",
+      "repo": "https://github.com/AbayIbrayev/ionic4-todoApp",
+      "demo": "https://elated-bhabha-128840.netlify.com/"
     },
     {
       "image": "src/img/projects/belazy.PNG",
@@ -31,16 +46,9 @@
     {
       "image": "src/img/projects/ejsTodo.PNG",
       "title": "EJS To-Do",
-      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well.",
+      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted.",
       "repo": "https://github.com/AbayIbrayev/EJSToDo",
       "demo": "https://powerful-ravine-46106.herokuapp.com/"
-    },
-    {
-      "image": "src/img/projects/todoster.png",
-      "title": "ToDoster ionic/Angular App",
-      "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS.",
-      "repo": "https://github.com/AbayIbrayev/ionic4-todoApp",
-      "demo": "https://elated-bhabha-128840.netlify.com/"
     }
   ],
 
