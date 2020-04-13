@@ -17,9 +17,16 @@
     {
       "image": "src/img/projects/todoster.png",
       "title": "ToDoster ionic/Angular App",
-      "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS.",
+      "descrip": "CRUD To-do cross-platform app using Ionic Framework/Angular with a Firebase Authentication and a side-menu navigation. Ready to be used on Android and iOS",
       "repo": "https://github.com/AbayIbrayev/ionic4-todoApp",
       "demo": "https://elated-bhabha-128840.netlify.com/"
+    },
+    {
+      "image": "src/img/projects/twitterClone.PNG",
+      "title": "Twitter Clone",
+      "descrip": "Minimalist Twitter clone using React and Bootstrap where you can add, search, delete, like posts and make them favourite",
+      "repo": "https://github.com/AbayIbrayev/reacttwitterclone",
+      "demo": "https://quizzical-golick-f1fd52.netlify.com/"
     },
     {
       "image": "src/img/projects/belazy.PNG",
@@ -31,21 +38,21 @@
     {
       "image": "src/img/projects/irvas.PNG",
       "title": "Irvas Landing Page",
-      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack.",
+      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack",
       "repo": "https://github.com/AbayIbrayev/irvasPage",
       "demo": "http://irvas-com.stackstaging.com/"
     },
     {
       "image": "src/img/projects/newsletter.PNG",
       "title": "Newsletter Heroku App",
-      "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku.",
+      "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku",
       "repo": "https://github.com/AbayIbrayev/Newsletter",
       "demo": "https://pure-earth-88904.herokuapp.com/"
     },
     {
       "image": "src/img/projects/ejsTodo.PNG",
       "title": "EJS To-Do",
-      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted.",
+      "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted",
       "repo": "https://github.com/AbayIbrayev/EJSToDo",
       "demo": "https://powerful-ravine-46106.herokuapp.com/"
     }
@@ -55,28 +62,28 @@
     {
       "image": "src/img/projects/ejsBlog.PNG",
       "title": "EJS Blog",
-      "descrip": "Basic Blog functionality using EJS, Express.js, Node.js, body-parser, Lodash, CSS/JS and Bootstrap. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well.",
+      "descrip": "Basic Blog functionality using EJS, Express.js, Node.js, body-parser, Lodash, CSS/JS and Bootstrap. New items are added to the MongoDB Atlas using Mongoose and can be deleted as well",
       "repo": "https://github.com/AbayIbrayev/EJSBlog",
       "demo": "https://powerful-bayou-73407.herokuapp.com/"
     },
     {
       "image": "src/img/projects/ionic.png",
       "title": "PokeDex ionic/Angular App",
-      "descrip": "Ionic 4/Angular App using PokéAPI the RESTful Pokémon API with a side-menu navigation, infinite-scroll and swipe-refresh. You can search for pokemons and see details about them.",
+      "descrip": "Ionic 4/Angular App using PokéAPI the RESTful Pokémon API with a side-menu navigation, infinite-scroll and swipe-refresh. You can search for pokemons and see details about them",
       "repo": "https://github.com/AbayIbrayev/ionic4-pokedex",
       "demo": "https://tender-kepler-cd6ccc.netlify.com/"
     },
     {
       "image": "src/img/projects/shoppingCart.PNG",
       "title": "JavaScript Shopping Cart",
-      "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage.",
+      "descrip": "Simple shopping cart functionality, where page content is fetched from a local JSON and dynamically displayed on the home page. All the products and the cart content is stored in the local storage",
       "repo": "https://github.com/AbayIbrayev/ShoppingCartJS",
       "demo": "https://abayibrayev.github.io/ShoppingCartJS/"
     },
     {
       "image": "src/img/projects/ionic.png",
       "title": "MovieApp ionic/Angular App",
-      "descrip": "Ionic 4/Angular Movie App with an OMDb API implemented and a side-menu navigation. You can search for movies and see their details (plot, rating, actors, genre).",
+      "descrip": "Ionic 4/Angular Movie App with an OMDb API implemented and a side-menu navigation. You can search for movies and see their details (plot, rating, actors, genre)",
       "repo": "https://github.com/AbayIbrayev/ionic4-movieApp",
       "demo": "",
       "dissLive": "pointer-events: none; cursor: default; opacity: 0.3;"
@@ -84,28 +91,28 @@
     {
       "image": "src/img/projects/yogatours.PNG",
       "title": "Yoga Tours Landing Page",
-      "descrip": "Yoga Tours Landing Page using HTML/CSS, Less and JavaScript. Contains tabs, slider carousel, timer, modals made with JavaScript from scratch. Project is bundled using Webpack and Babel.",
+      "descrip": "Yoga Tours Landing Page using HTML/CSS, Less and JavaScript. Contains tabs, slider carousel, timer, modals made with JavaScript from scratch. Project is bundled using Webpack and Babel",
       "repo": "https://github.com/AbayIbrayev/yogaLanding",
       "demo": "https://abayibrayev.github.io/yogaLanding/"
     },
     {
       "image": "src/img/projects/activebox.PNG",
       "title": "ActiveBox Landing Page",
-      "descrip": "ActiveBox Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and a reviews carousel.",
+      "descrip": "ActiveBox Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and a reviews carousel",
       "repo": "https://github.com/AbayIbrayev/ActiveBoxLanding",
       "demo": "https://abayibrayev.github.io/ActiveBoxLanding/"
     },
     {
       "image": "src/img/projects/skinali.PNG",
       "title": "Skinali Landing Page",
-      "descrip": "Skinali Factory Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and has a before/after slider combined with a slick carousel.",
+      "descrip": "Skinali Factory Landing page using HTML/CSS, Sass, jQuery from a PSD template. Fully responsive, contains animations and has a before/after slider combined with a slick carousel",
       "repo": "https://github.com/AbayIbrayev/Skinali-Factory__Website",
       "demo": "https://abayibrayev.github.io/Skinali-Factory__Website/"
     },
     {
       "image": "src/img/projects/cv.PNG",
       "title": "CV/Resume",
-      "descrip": "CV/Resume web page made with CSS and HTML.",
+      "descrip": "CV/Resume web page made with CSS and HTML",
       "repo": "https://github.com/AbayIbrayev/AbayIbrayev.github.io",
       "demo": "https://abayibrayev.github.io/"
     }
@@ -114,70 +121,70 @@
     {
       "image": "src/img/projects/rockpaper.PNG",
       "title": "Rock Paper Scissors",
-      "descrip": "Rock Paper Scissors game using HTML/CSS and JavaScript. User makes his selection and the computer responds with a random selection in a modal window.",
+      "descrip": "Rock Paper Scissors game using HTML/CSS and JavaScript. User makes his selection and the computer responds with a random selection in a modal window",
       "repo": "https://github.com/AbayIbrayev/RockPaperScissors",
       "demo": "https://abayibrayev.github.io/RockPaperScissors/"
     },
     {
       "image": "src/img/projects/simon.PNG",
       "title": "Simon Game",
-      "descrip": "Simon Game using HTML/CSS/JS and jQuery, where each level you have to repeat all the steps you did before.",
+      "descrip": "Simon Game using HTML/CSS/JS and jQuery, where each level you have to repeat all the steps you did before",
       "repo": "https://github.com/AbayIbrayev/SimonGame",
       "demo": "https://abayibrayev.github.io/SimonGame/"
     },
     {
       "image": "src/img/projects/diceGame.PNG",
       "title": "Dice Game",
-      "descrip": "Dice Game using JavaScript, which randomly shows dices and finds the winner.",
+      "descrip": "Dice Game using JavaScript, which randomly shows dices and finds the winner",
       "repo": "https://github.com/AbayIbrayev/DiceGameJS",
       "demo": "https://abayibrayev.github.io/DiceGameJS/"
     },
     {
       "image": "src/img/projects/dadjokes.PNG",
       "title": "Dad Jokes Generator",
-      "descrip": "Dad Jokes Generator using JavaScript and icanhaz API.",
+      "descrip": "Dad Jokes Generator using JavaScript and icanhaz API",
       "repo": "https://github.com/AbayIbrayev/DadJokesGenerator",
       "demo": "https://abayibrayev.github.io/DadJokesGenerator/"
     },
     {
       "image": "src/img/projects/drums.PNG",
       "title": "Drum Kit",
-      "descrip": "A Drum Kit using JavaScript, which can play sounds by either clicking on the buttons or pressing keys on the keyboard.",
+      "descrip": "A Drum Kit using JavaScript, which can play sounds by either clicking on the buttons or pressing keys on the keyboard",
       "repo": "https://github.com/AbayIbrayev/DrumsJS",
       "demo": "https://abayibrayev.github.io/DrumsJS/"
     },
     {
       "image": "src/img/projects/pwgenerator.PNG",
       "title": "Password Generator",
-      "descrip": "Simple Password Generator using JavaScript.",
+      "descrip": "Simple Password Generator using JavaScript",
       "repo": "https://github.com/AbayIbrayev/PasswordGeneratorJS",
       "demo": "https://abayibrayev.github.io/PasswordGeneratorJS/"
     },
     {
       "image": "src/img/projects/tileCalculator.png",
       "title": "Tile Calculator",
-      "descrip": "Simple and very easy to implement Tile Calculator using JavaScript.",
+      "descrip": "Simple and very easy to implement Tile Calculator using JavaScript",
       "repo": "https://github.com/AbayIbrayev/TilesCalculator",
       "demo": "https://abayibrayev.github.io/TilesCalculator/"
     },
     {
       "image": "src/img/projects/formValidation.png",
       "title": "Form Validation",
-      "descrip": "Client-Side form validation using JavaScript.",
+      "descrip": "Client-Side form validation using JavaScript",
       "repo": "https://github.com/AbayIbrayev/FormValidationJS",
       "demo": "https://abayibrayev.github.io/FormValidationJS/"
     },
     {
       "image": "src/img/projects/tindog.PNG",
       "title": "Bootstrap Tindog Landing page",
-      "descrip": "Simple Tindog Landing page using Bootstrap.",
+      "descrip": "Simple Tindog Landing page using Bootstrap",
       "repo": "https://github.com/AbayIbrayev/TinDog",
       "demo": "https://abayibrayev.github.io/TinDog/"
     },
     {
       "image": "src/img/projects/slider.PNG",
       "title": "Java Script Slider",
-      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation.",
+      "descrip": "Very simple and easy to add JavaScript Slider with arrows and pagination dots navigation",
       "repo": "https://github.com/AbayIbrayev/JavaScriptSlider",
       "demo": "https://abayibrayev.github.io/JavaScriptSlider/"
     }
