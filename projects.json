@@ -29,18 +29,11 @@
       "demo": "https://quizzical-golick-f1fd52.netlify.com/"
     },
     {
-      "image": "src/img/projects/belazy.PNG",
-      "title": "Belazy Landing Page",
-      "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
-      "repo": "https://github.com/AbayIbrayev/BelazyLandingPage",
-      "demo": "https://clever-easley-cc5729.netlify.com/"
-    },
-    {
-      "image": "src/img/projects/irvas.PNG",
-      "title": "Irvas Landing Page",
-      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack",
-      "repo": "https://github.com/AbayIbrayev/irvasPage",
-      "demo": "http://irvas-com.stackstaging.com/"
+      "image": "src/img/projects/got.PNG",
+      "title": "Game of Thrones app",
+      "descrip": "Game of Thrones app using an API of Ice And Fire and React, react-hooks, react-router-dom, react-components, JSX and reactstrap",
+      "repo": "https://github.com/AbayIbrayev/GameOfThronesReact",
+      "demo": "https://gameofthrones-f8850.web.app/"
     },
     {
       "image": "src/img/projects/newsletter.PNG",
@@ -55,6 +48,20 @@
       "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted",
       "repo": "https://github.com/AbayIbrayev/EJSToDo",
       "demo": "https://powerful-ravine-46106.herokuapp.com/"
+    },
+    {
+      "image": "src/img/projects/irvas.PNG",
+      "title": "Irvas Landing Page",
+      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack",
+      "repo": "https://github.com/AbayIbrayev/irvasPage",
+      "demo": "http://irvas-com.stackstaging.com/"
+    },
+    {
+      "image": "src/img/projects/belazy.PNG",
+      "title": "Belazy Landing Page",
+      "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
+      "repo": "https://github.com/AbayIbrayev/BelazyLandingPage",
+      "demo": "https://clever-easley-cc5729.netlify.com/"
     }
   ],
 
