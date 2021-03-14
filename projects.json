@@ -36,32 +36,11 @@
       "demo": "https://gameofthrones-f8850.web.app/"
     },
     {
-      "image": "src/img/projects/newsletter.PNG",
-      "title": "Newsletter Heroku App",
-      "descrip": "A Mailchimp Newsletter sign up page using Node.js, Express, body-parser, request, Bootstrap and deployed on heroku",
-      "repo": "https://github.com/AbayIbrayev/Newsletter",
-      "demo": "https://pure-earth-88904.herokuapp.com/"
-    },
-    {
       "image": "src/img/projects/ejsTodo.PNG",
       "title": "EJS To-Do",
       "descrip": "A Simple To-do list using EJS wth Express, body-parser, modules, HTML/CSS/JS and views. New items are added to the MongoDB Atlas using Mongoose and can be deleted",
       "repo": "https://github.com/AbayIbrayev/EJSToDo",
       "demo": "https://powerful-ravine-46106.herokuapp.com/"
-    },
-    {
-      "image": "src/img/projects/irvas.PNG",
-      "title": "Irvas Landing Page",
-      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack",
-      "repo": "https://github.com/AbayIbrayev/irvasPage",
-      "demo": "http://irvas-com.stackstaging.com/"
-    },
-    {
-      "image": "src/img/projects/belazy.PNG",
-      "title": "Belazy Landing Page",
-      "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
-      "repo": "https://github.com/AbayIbrayev/BelazyLandingPage",
-      "demo": "https://clever-easley-cc5729.netlify.com/"
     }
   ],
 
@@ -94,6 +73,21 @@
       "repo": "https://github.com/AbayIbrayev/ionic4-movieApp",
       "demo": "",
       "dissLive": "pointer-events: none; cursor: default; opacity: 0.3;"
+    },
+    {
+      "image": "src/img/projects/irvas.PNG",
+      "title": "Irvas Landing Page",
+      "descrip": "Website/Landing Page for Irvas using HTML/CSS/JS with modals, tabs, calculator, forms, timer, popups and Google Maps. Fully responsive and bundeled using Gulp/Webpack",
+      "repo": "https://github.com/AbayIbrayev/irvasPage",
+      "demo": "",
+      "dissLive": "pointer-events: none; cursor: default; opacity: 0.3;"
+    },
+    {
+      "image": "src/img/projects/belazy.PNG",
+      "title": "Belazy Landing Page",
+      "descrip": "Belazy Landing Page PSD to HTML work using HTML/CSS (SASS), JavaScript and a slick carousel implemented",
+      "repo": "https://github.com/AbayIbrayev/BelazyLandingPage",
+      "demo": "https://clever-easley-cc5729.netlify.com/"
     },
     {
       "image": "src/img/projects/yogatours.PNG",
