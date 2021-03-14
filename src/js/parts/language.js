@@ -5,7 +5,7 @@ function language() {
     lang = document.getElementById('lang-toggle'),
     heroDescription = document.querySelector('.hero__description'),
     projectsTitle = document.querySelector('#projects div h2'),
-    recentProjects = document.querySelectorAll('.projects-header-tab')[0],
+    featuredProjects = document.querySelectorAll('.projects-header-tab')[0],
     personalProjects = document.querySelectorAll('.projects-header-tab')[1],
     funProjects = document.querySelectorAll('.projects-header-tab')[2],
     skillsTitle = document.querySelector('#skills div h2'),
@@ -24,9 +24,10 @@ function language() {
 
   function ruLang() {
     heroTitle.innerText = 'Привет, Мир!';
-    heroDescription.innerHTML = '👋 Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработчик.';
+    heroDescription.innerHTML =
+      '👋 Меня зовут Абай Ибраев,<br> Я профессиональный Веб Разработчик.';
     projectsTitle.innerText = 'Проекты 💻';
-    recentProjects.innerText = 'Недавние работы';
+    featuredProjects.innerText = 'Недавние работы';
     personalProjects.innerText = 'Персональные проекты';
     funProjects.innerText = 'Веселые проекты';
     skillsTitle.innerText = 'Навыки 📝';
@@ -39,9 +40,10 @@ function language() {
 
   function engLang() {
     heroTitle.innerText = 'Hello, World!';
-    heroDescription.innerHTML = "👋 My name is Abay Ibrayev,<br> I'm a professional Software/Web Developer.";
+    heroDescription.innerHTML =
+      "👋 My name is Abay Ibrayev,<br> I'm a Software Engineer / Web Developer.";
     projectsTitle.innerText = 'Projects 💻';
-    recentProjects.innerText = 'Recent Work';
+    featuredProjects.innerText = 'Featured Work';
     personalProjects.innerText = 'Personal Projects';
     funProjects.innerText = 'Fun Projects';
     skillsTitle.innerText = 'Skills 📝';

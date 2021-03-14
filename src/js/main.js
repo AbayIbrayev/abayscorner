@@ -1,3 +1,5 @@
+//run npx webpack in the terminal to start webpack
+
 require('nodelist-foreach-polyfill');
 window.addEventListener('DOMContentLoaded', () => {
   'use strict';
